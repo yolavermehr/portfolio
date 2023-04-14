@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -66,4 +66,8 @@ h3 {
 a {
     color: rgb(72 223 105);
     text-decoration: none;
+}
+
+.bio {
+    font-family: 'Fontix', Arial, sans-serif;
 }
