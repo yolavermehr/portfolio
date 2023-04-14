@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -17,16 +17,20 @@ header {
     text-align: center;
 }
 
-h1 {
+h1, 
+h2, 
+h3 {
     font-family: 'Fontix', Arial, sans-serif;
     margin: 0;
     font-weight: normal;
 }
 
 h2 {
-    font-family: 'Fontix', Arial, sans-serif;
-    margin: 0;
-    font-weight: normal;
+    color: #555;
+}
+
+h3 {
+    color: #909dd7;
 }
 
 .projects {
