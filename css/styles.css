@@ -35,15 +35,15 @@ h3 {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
     margin: 20px;
 }
 
 .project {
     flex: 1;
     margin: 10px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .project img {
