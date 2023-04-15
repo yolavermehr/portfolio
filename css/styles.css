@@ -43,7 +43,7 @@ h3 {
 .project {
     flex: 1;
     margin: 10px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .project img {
@@ -70,4 +70,22 @@ a {
 
 .bio {
     font-family: 'Fontix', Arial, sans-serif;
+    color: #555;
+}
+
+.sub-header {
+    font-family: 'Fontix', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(72 223 105);
+}
+
+.sub-header,
+.sub-header-2 {
+    font-family: 'Fontix', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(72 223 105);
 }
