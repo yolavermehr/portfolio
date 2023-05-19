@@ -103,15 +103,9 @@ main {
 
 .gallery {
     display: grid;
-<<<<<<< HEAD
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    margin: 20px;
-=======
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     margin: 1rem;
->>>>>>> 0431da900c3e314d35b1538bd131bace92b5cb31
 }
 
 .gallery img {
