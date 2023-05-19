@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f2f0ed;
+    background-color: #fafafa;
 }
 
 * {
@@ -29,30 +29,43 @@ header {
 
 h1 {
     font-family: 'Fontix', Roboto, sans-serif;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0 0;
     padding: 0;
-    color: rgb(72 223 105);
-    /* background-color:rgb(197, 219, 240) ; */
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #48df69;
 }
 
 .bio {
+    /* width: 24rem; */
     font-size: 1rem;
-    color: #333;
-    /* background-color:#9ab ; */
-    margin: 0;
+    line-height: 1.2rem;
+    color: #555;
+    margin: 2rem 0 0 0;
+    /* border-left: #555 1px solid; */
+    /* padding-left: 4rem; */
+    /* padding: 0.5rem 1rem 2rem 2rem; */
+    /* border-bottom: #555 1px solid; */
+}
+
+.sub-header {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #edb6fd;
 }
 
 h2 {
     font-family: 'Fontix', Roboto, sans-serif;
-    color: #333;
+    color: #edb6fd;
     text-align: left;
     font-size: 1.5rem;
+    line-height: 1.5rem;
     padding: 0rem;
-    margin: 0rem;
+    margin: 0 0 0.5rem 0;
 }
 
 h3 {
-    color: #333;
+    color: #555;
     font-size: 1rem;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
@@ -64,16 +77,14 @@ main {
     padding: 0;
     margin: 1rem;
     padding: 1rem;
-    /* background-color: aqua; */
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
     padding: 0rem;
     margin: 0rem;
-    /* background-color: #909dd7; */
 }
 
 .project {
@@ -86,7 +97,7 @@ main {
     padding: 0;
 }
 
-.title {
+.project_title {
     font-size: 1rem;
     line-height: 1.2rem;
 }
@@ -97,24 +108,41 @@ main {
 }
 
 .project img {
+    aspect-ratio: 2/3;
+    object-fit: cover;
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
-    margin: 1rem;
+    padding: 0rem;
+    margin: 1rem 0 0 0;
 }
 
 .gallery img {
+    aspect-ratio: 2/3;
+    object-fit: cover;
     max-width: 100%;
     height: auto;
+    display: block;
+}
+
+.info {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    /* color: #fafafa; */
+    color: #555;
+    /* background-color: #555; */
+    margin: 1rem 0 2rem 0;
+    padding: 0rem 1rem 0rem 2rem;
+    border-left: #555 1px solid;
 }
 
 a {
     color: inherit;
-    /* color: rgb(72 223 105); */
     text-decoration: none;
 }
