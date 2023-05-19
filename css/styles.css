@@ -3,47 +3,97 @@
     src: url('Fontix-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Regular.ttf') format('truetype'); 
+}
+
 body {
-    font-family: 'Fontix', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #f2f0ed;
 }
+
+* {
+    /* background-color:rgba(0, 0, 255, 0.2)!important */
+} 
 
 header {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
+    /* background-color: #ddd0df; */
+    padding: 1rem;
+    margin: 1rem;
+    text-align: left;
 }
 
-h1, 
-h2, 
-h3 {
-    font-family: 'Fontix', Arial, sans-serif;
+h1 {
+    font-family: 'Fontix', Roboto, sans-serif;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    color: rgb(72 223 105);
+    /* background-color:rgb(197, 219, 240) ; */
+}
+
+.bio {
+    font-size: 1rem;
+    color: #333;
+    /* background-color:#9ab ; */
     margin: 0;
-    font-weight: normal;
 }
 
 h2 {
-    color: #555;
+    font-family: 'Fontix', Roboto, sans-serif;
+    color: #333;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 h3 {
-    color: #909dd7;
+    color: #333;
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+main {
+    padding: 0;
+    margin: 1rem;
+    padding: 1rem;
+    /* background-color: aqua; */
 }
 
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    margin: 20px;
+    padding: 0rem;
+    margin: 0rem;
+    /* background-color: #909dd7; */
 }
 
 .project {
+    margin: 1rem 0;
     flex: 1;
-    margin: 10px;
-    text-align: center;
+}
+
+.project_info {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.client {
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
 .project img {
@@ -54,8 +104,8 @@ h3 {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    margin: 20px;
+    grid-gap: 1rem;
+    margin: 1rem;
 }
 
 .gallery img {
@@ -64,28 +114,7 @@ h3 {
 }
 
 a {
-    color: rgb(72 223 105);
+    color: inherit;
+    /* color: rgb(72 223 105); */
     text-decoration: none;
-}
-
-.bio {
-    font-family: 'Fontix', Arial, sans-serif;
-    color: #555;
-}
-
-.sub-header {
-    font-family: 'Fontix', Arial, sans-serif;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    color: rgb(72 223 105);
-}
-
-.sub-header,
-.sub-header-2 {
-    font-family: 'Fontix', Arial, sans-serif;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: rgb(72 223 105);
 }
