@@ -38,11 +38,11 @@ h1 {
 }
 
 .bio {
-    /* width: 24rem; */
+    width: 32rem;
     font-size: 1rem;
     line-height: 1.2rem;
     color: #555;
-    margin: 2rem 0 0 0;
+    margin: 0.5rem 0 0 5rem;
     /* border-left: #555 1px solid; */
     /* padding-left: 4rem; */
     /* padding: 0.5rem 1rem 2rem 2rem; */
@@ -63,6 +63,21 @@ h2 {
     line-height: 1.5rem;
     padding: 0rem;
     margin: 0 0 0.5rem 0;
+}
+
+.jumpbox {
+    padding: 0 0 0 5rem;
+    margin: 0;
+}
+
+.jump {
+    font-family: 'Fontix', Roboto, sans-serif;
+    color: #edb6fd;
+    text-align: left;
+    font-size: 5rem;
+    line-height: 2.8rem;
+    padding: 0;
+    margin: 0 0 1rem 0;
 }
 
 h3 {
@@ -135,14 +150,14 @@ main {
 }
 
 .info {
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
     /* color: #fafafa; */
     color: #555;
     /* background-color: #555; */
     margin: 1rem 0 2rem 0;
-    padding: 0rem 1rem 0rem 2rem;
-    border-left: #555 1px solid;
+    padding: 0rem 1rem 0rem 5rem;
+    /* border-left: #555 1px solid; */
 }
 
 a {
