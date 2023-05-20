@@ -31,6 +31,7 @@ header {
     position: sticky;
     top: 0;
     /* border-bottom: 1px solid #666; */
+    /* box-shadow: 0px 0px 12px #dad0d1; */
 }
 
 h1, 
@@ -69,7 +70,7 @@ h2 {
     padding: 1rem;
     margin: 0 1rem 1rem 1rem;
     text-align: left;
-    height: 6rem;
+    height: 2rem;
 }
 
 #subheader .bio {
@@ -103,7 +104,11 @@ main {
     padding: 0;
     margin: 1rem;
     padding: 1rem;
-    /* border-top: 1px solid #edb6fd; */
+    /* border-top: 1px solid #edb6fd80; */
+    /* border-top: 1px solid #f5eff0; */
+    /* border-top: 1px solid #ede3e5; */
+    border-top: #77777744 dashed 1px;
+
 }
 
 .projects {
@@ -145,7 +150,7 @@ main {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     padding: 0rem;
     margin: 0;
@@ -159,17 +164,42 @@ main {
     display: block;
 }
 
-#subheader .project_name {
-    font-size: 1.5rem;
-    font-weight: 400;
-    background-color: #f7fdb6;
+#project_info_box_container {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f5eff0;
+    /* border: #a00909 solid 1px; */
+}
+
+
+#project_info_box {
+    padding: 1.5rem 2rem 2rem 2rem;
+    margin: 0;
+    background-color: #f5eff0;
+    border: #77777744 dashed 1px;
+    /* border: #ede3e5 solid 1px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#project_info_box .project_name {
+    /* font-size: 1.5rem; */
+    font-weight: 800;
+    /* background-color: #f7fdb6; */
     padding: 0.15rem 0.5rem 0.25rem 0.5rem;
     margin: 0 -0.5rem;
     border-radius: 0.5rem;
 }
 
-#subheader .description {
+#project_info_box .description {
     margin: 0.5rem 0 0 0;
+}
+
+.emoji {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    /* margin-left: -1rem; */
 }
 
 a {
