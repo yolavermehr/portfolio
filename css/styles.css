@@ -11,6 +11,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.2;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     color: #555;
@@ -39,17 +40,8 @@ h2 {
     font-family: 'Fontix', Roboto, sans-serif;
     font-size: 3rem;
     line-height: 3rem;
-}
-
-h1 {
     margin: 0;
     padding: 0;
-}
-
-h2 {
-    margin: -1rem 0 0 0;
-    padding: 0;
-    color: #edb6fd;
 }
 
 .headertext_home {
@@ -61,20 +53,28 @@ h2 {
     -webkit-text-stroke: 1px #81e59470;
 }
 
+.headertext_section {
+    color: #edb6fd;
+}
+
 .headertext_section a {
     color: #fafafa;
     -webkit-text-stroke: 1px #edb6fd80;
 }
 
 #subheader {
-    padding: 1rem;
-    margin: 0 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0rem 1rem 1rem 1rem;
     text-align: left;
-    height: 2rem;
+    height: 3rem;
 }
 
 #subheader .bio {
-    margin: -0.6rem 0 0 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5rem;
+    color: #81E594;
+    font-weight: 600;
 }
 
 .chapter_box {
@@ -101,8 +101,7 @@ h3 {
 }
 
 main {
-    padding: 0;
-    margin: 1rem;
+    margin: 2rem 1rem 1rem 1rem;
     padding: 1rem;
     /* border-top: 1px solid #edb6fd80; */
     /* border-top: 1px solid #f5eff0; */
@@ -120,24 +119,24 @@ main {
 }
 
 .project {
-    margin: 0 0 1rem 0;
+    margin: 0 0 0rem 0;
     flex: 1;
 }
 
-.project_title {
-    font-size: 1rem;
-    line-height: 1.2rem;
-    margin: 1rem 0 0 0;
-}
-
 .project_info {
-    margin: 0;
+    font-size: 0.8rem;
+    /* font-weight: 400; */
+    line-height: 1rem;
+    margin: 0.5rem 0 0 0;
     padding: 0;
 }
 
-.client {
-    font-size: 1rem;
-    line-height: 1.2rem;
+.project_title {
+}
+
+.project_client {
+    font-weight: 600;
+    color: #666;
 }
 
 .project img {
@@ -165,19 +164,22 @@ main {
 }
 
 #project_info_box_container {
-    padding: 1rem;
+    padding: 2rem 2rem 2rem 3rem;
     margin-bottom: 1rem;
     background-color: #f5eff0;
     /* border: #a00909 solid 1px; */
+    
 }
 
 
 #project_info_box {
-    padding: 1.5rem 2rem 2rem 2rem;
+    padding: 0.5rem 1rem 1rem 1rem;
     margin: 0;
     background-color: #f5eff0;
-    border: #77777744 dashed 1px;
+    /* border: #77777744 dashed 1px; */
     /* border: #ede3e5 solid 1px; */
+    border-left: #22222244 dashed 1px;
+
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -185,11 +187,12 @@ main {
 
 #project_info_box .project_name {
     /* font-size: 1.5rem; */
-    font-weight: 800;
+    font-weight: 600;
     /* background-color: #f7fdb6; */
     padding: 0.15rem 0.5rem 0.25rem 0.5rem;
     margin: 0 -0.5rem;
     border-radius: 0.5rem;
+    color: #666;
 }
 
 #project_info_box .description {
