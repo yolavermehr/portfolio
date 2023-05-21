@@ -55,6 +55,8 @@ h2 {
 
 .headertext_section {
     color: #edb6fd;
+    position: relative;
+    top: -0.5rem;
 }
 
 .headertext_section a {
@@ -78,49 +80,57 @@ h2 {
 }
 
 .chapter_box {
-    padding: 1rem 0 0 5rem;
+    padding: 0rem 1rem 0rem 5rem;
     margin: 0;
+}
+
+.chapters {
+    padding: 0rem 1rem 0rem 1.5rem;
+    border-left: #edb6fd dashed 1px;
+    /* border-top: #edb6fd dashed 1px; */
+
 }
 
 .chapter {
     font-family: 'Fontix', Roboto, sans-serif;
     color: #edb6fd;
     text-align: left;
-    font-size: 5rem;
-    line-height: 2.8rem;
+    font-size: 4rem;
+    line-height: 4rem;
     padding: 0;
-    margin: 0 0 1rem 0;
 }
 
-h3 {
+/* h3 {
     font-size: 1rem;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
     padding: 0rem;
     margin: 0rem;
-}
+} */
 
 main {
-    margin: 2rem 1rem 1rem 1rem;
     padding: 1rem;
     /* border-top: 1px solid #edb6fd80; */
     /* border-top: 1px solid #f5eff0; */
     /* border-top: 1px solid #ede3e5; */
     /* border-top: #77777744 dashed 1px; */
-    border-top: #edb6fd dashed 1px;
+    /* border-top: #edb6fd dashed 1px; */
 }
 
 .on_home {
-    border-top: #81E594 dashed 1px;
+    margin: 3rem 1rem 1rem 1rem;
+    /* border-top: #81E594 dashed 1px; */
 }
 
-/* .on_chapter {
+.on_chapter {
+    margin: 0rem 1rem 1rem 1rem;
     border-top: #edb6fd dashed 1px;
 }
 
 .on_project {
-    border-top: #edb6fd80 dashed 1px;
-} */
+    margin: 0 1rem 1rem 1rem;
+    /* border-top: #edb6fd80 dashed 1px; */
+} 
 
 .projects {
     display: grid;
