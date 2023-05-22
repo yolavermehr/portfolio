@@ -8,23 +8,22 @@
     src: url('Quicksand-VariableFont_wght.ttf') format('truetype'); 
 }
 
-/* html { 
-    background: url(/media/project_16_media/p16-6.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
+:root {
+    --color_background: #fafafa;
+    --color1: #555;
+    --color2: #555;
+    --font2: 'Quicksand', Roboto, sans-serif;
+    --font1: 'Quicksand', Roboto, sans-serif;
+}
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: var(--font2);
     line-height: 1.2;
     font-weight: 400;
     margin: 0;
     padding: 0;
     color: #555;
-    background-color: #fafafa;
-    /* font-weight: 500; */
+    background-color: var(--color_background);
 }
 
 * {
@@ -36,16 +35,15 @@ header {
     margin: 0;
     text-align: left;
     height: 3rem;
-    background-color: #fafafa;
+    background-color: var(--color_background);
     position: sticky;
     top: 0;
-    /* border-bottom: 1px solid #666; */
-    /* box-shadow: 0px 0px 12px #dad0d1; */
 }
 
 h1, 
 h2 {
-    font-family: 'Fontix', Roboto, sans-serif;
+    font-family: var(--font1);
+    font-weight: 400;
     font-size: 3rem;
     line-height: 3rem;
     margin: 0;
@@ -53,23 +51,32 @@ h2 {
 }
 
 .headertext_home {
-    color: #58ff75;
+    color: var(--color1);
 }
 
 .headertext_home a {
-    color: #fafafa;
-    -webkit-text-stroke: 0.75px #58ff75;
+    color: var(--color_background);
+    -webkit-text-stroke: 0.75px var(--color1);
+}
+
+.headertext_home a:hover {
+    color: var(--color1);
+    -webkit-text-stroke: 0px;
 }
 
 .headertext_section {
-    color: #edb6fd;
+    color: var(--color2);
     position: relative;
-    top: -0.5rem;
 }
 
 .headertext_section a {
-    color: #fafafa;
-    -webkit-text-stroke: 0.75px #edb6fd;
+    color: var(--color_background);
+    -webkit-text-stroke: 0.75px var(--color2);
+}
+
+.headertext_section a:hover {
+    color: var(--color2);
+    -webkit-text-stroke: 0px;
 }
 
 #subheader {
@@ -83,8 +90,8 @@ h2 {
     margin: 0;
     padding: 0;
     padding-top: 0.5rem;
-    color: #58ff75;
-    font-weight: 600;
+    color: var(--color1);
+    font-weight: 500;
 }
 
 .chapter_box {
@@ -94,50 +101,33 @@ h2 {
 
 .chapters {
     padding: 0rem 1rem 0rem 1.5rem;
-    border-left: #edb6fd dashed 1px;
-    /* border-top: #edb6fd dashed 1px; */
-
+    border-left: var(--color2) dashed 1px;
 }
 
 .chapter {
-    font-family: 'Fontix', Roboto, sans-serif;
-    color: #edb6fd;
+    font-family: var(--font1);
+    color: var(--color2);
     text-align: left;
     font-size: 4rem;
     line-height: 4rem;
     padding: 0;
 }
 
-/* h3 {
-    font-size: 1rem;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
-    padding: 0rem;
-    margin: 0rem;
-} */
-
 main {
     padding: 1rem;
-    /* border-top: 1px solid #edb6fd80; */
-    /* border-top: 1px solid #f5eff0; */
-    /* border-top: 1px solid #ede3e5; */
-    /* border-top: #77777744 dashed 1px; */
-    /* border-top: #edb6fd dashed 1px; */
 }
 
 .on_home {
     margin: 3rem 1rem 1rem 1rem;
-    /* border-top: #81E594 dashed 1px; */
 }
 
 .on_chapter {
     margin: 0rem 1rem 1rem 1rem;
-    border-top: #edb6fd dashed 1px;
+    border-top: var(--color2) dashed 1px;
 }
 
 .on_project {
     margin: 0 1rem 1rem 1rem;
-    /* border-top: #edb6fd80 dashed 1px; */
 } 
 
 .projects {
@@ -155,7 +145,6 @@ main {
 
 .project_info {
     font-size: 0.8rem;
-    /* font-weight: 400; */
     line-height: 1rem;
     margin: 0.5rem 0 0 0;
     padding: 0;
@@ -196,22 +185,13 @@ main {
 #project_info_box_container {
     padding: 1rem 2rem 1rem 3rem;
     margin-bottom: 1rem;
-    /* background-color: #f5eff0; */
 }
 
 
 #project_info_box {
     padding: 0.5rem 1rem 1rem 1rem;
     margin: 0;
-    /* background-color: #f5eff0; */
-    /* border: #77777744 dashed 1px; */
-    /* border: #ede3e5 solid 1px; */
-    border-left: #22222244 dashed 1px;
-    /* border-left: #77777744 solid 1px; */
-
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    border-left: var(--color2) dashed 1px;
 }
 
 #project_info_box .emoji {
@@ -221,9 +201,7 @@ main {
 }
 
 #project_info_box .project_name {
-    /* font-size: 1.5rem; */
     font-weight: 600;
-    /* background-color: #f7fdb6; */
     padding: 0.15rem 0.5rem 0.25rem 0.5rem;
     margin: 0 -0.5rem;
     border-radius: 0.5rem;
