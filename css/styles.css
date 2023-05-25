@@ -14,7 +14,8 @@
     --color_container: #fafafa;
     --color1: #58ff75;
     /* --color2: #edb6fd; */
-    --color2: #555;
+    --color2: #58ff75;
+    /* --color2: #555; */
     --font1: 'Fontix', Roboto, sans-serif;
     --font2: 'Quicksand', Roboto, sans-serif;
 }
@@ -155,6 +156,8 @@ main {
 .project {
     margin: 0 0 0rem 0;
     flex: 1;
+    /* background-color: #58ff75; */
+    background-color: #edb6fd88;
 }
 
 .project_info {
@@ -162,13 +165,16 @@ main {
     line-height: 1rem;
     margin: 0.5rem 0 0 0;
     padding: 0;
+    padding: 0 0 0.5rem 1rem;
+
 }
 
 .project_title {
+    font-weight: 600;
+
 }
 
 .project_client {
-    font-weight: 600;
     /* color: #666; */
 }
 
