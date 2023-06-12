@@ -13,9 +13,9 @@
     --color_background: #f6f6f6;
     --color_container: #fafafa;
     --color1: #58ff75;
-    /* --color2: #edb6fd; */
-    --color2: #58ff75;
-    /* --color2: #555; */
+    --color2: #edb6fd;
+    /* --color2: #82f4cc; */
+    --color3: #333;
     --font1: 'Fontix', Roboto, sans-serif;
     --font2: 'Quicksand', Roboto, sans-serif;
 }
@@ -104,7 +104,7 @@ h2 {
     margin: 0;
     padding: 0;
     padding-top: 0.5rem;
-    color: var(--color2);
+    color: var(--color1);
     /* font-weight: 500; */
 }
 
@@ -156,7 +156,8 @@ main {
     margin: 0 0 0rem 0;
     flex: 1;
     /* background-color: #58ff75; */
-    background-color: #edb6fd88;
+    /* background-color: #edb6fd88; */
+    background-color: var(--color_background);
 }
 
 .project_info {
@@ -204,13 +205,17 @@ main {
 #project_info_box_container {
     padding: 1rem 2rem 1rem 3rem;
     margin-bottom: 1rem;
+    /* background-color: var(--color1); */
+    /* background-color: #58ff7588; */
+    background-color: #edb6fd88;
+
 }
 
 
 #project_info_box {
     padding: 0.5rem 1rem 1rem 1rem;
     margin: 0;
-    border-left: var(--color2) dashed 1px;
+    border-left: var(--color3) dashed 1px;
 }
 
 #project_info_box .emoji {
@@ -220,11 +225,12 @@ main {
 }
 
 #project_info_box .project_name {
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 1.05em;
     padding: 0.15rem 0.5rem 0.25rem 0.5rem;
     margin: 0 -0.5rem;
     border-radius: 0.5rem;
-    color: var(--color2);
+    color: #00000099;
 }
 
 #project_info_box .description {
