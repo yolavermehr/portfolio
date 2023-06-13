@@ -202,13 +202,41 @@ main {
     display: block;
 }
 
+.gallery_book {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    padding: 0rem;
+    margin: 0;
+}
+
+.gallery_book img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project_13 img {
+    aspect-ratio: 4/3;
+
+}
+
+.project_14 img {
+    aspect-ratio: 3/2;
+}
+
+.project_15 img {
+    aspect-ratio: 7/4;
+}
+
+
 #project_info_box_container {
     padding: 1rem 2rem 1rem 3rem;
     margin-bottom: 1rem;
     /* background-color: var(--color1); */
     /* background-color: #58ff7588; */
     background-color: #edb6fd88;
-
 }
 
 
