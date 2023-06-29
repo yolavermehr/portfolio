@@ -124,11 +124,11 @@ h2 {
     text-align: left;
     font-size: 4rem;
     line-height: 4rem;
-    padding: 0;
+    padding: 0;   
 }
 
-.chapter a:hover {
-    color: var(--color1);
+.chapters a:hover {
+color:#58ff75
 }
 
 main {
