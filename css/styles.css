@@ -124,7 +124,12 @@ h2 {
     text-align: left;
     font-size: 4rem;
     line-height: 4rem;
-    padding: 0;
+    padding: 0;   
+}
+
+.chapter a:hover {
+    color: var(--color1);
+    -webkit-text-stroke: 0.1rem;
 }
 
 main {
@@ -217,8 +222,13 @@ main {
     display: block;
 }
 
+.project_13 .spread {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .project_13 img {
-    aspect-ratio: 4/3;
+    aspect-ratio: 2/3;
 }
 
 .project_14 img {
