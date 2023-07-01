@@ -127,8 +127,9 @@ h2 {
     padding: 0;   
 }
 
-.chapters a:hover {
-color:#58ff75
+.chapter a:hover {
+    color: var(--color1);
+    -webkit-text-stroke: 0.1rem;
 }
 
 main {
