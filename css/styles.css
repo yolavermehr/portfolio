@@ -31,18 +31,30 @@ body {
     background-color: var(--color_background);
 }
 
+.index-page, body {
+  background-image: url('../media/project_9_media/p9-1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  height: 100vh;
+  margin: 0;
+  /* background-color: red !important; */
+}
+
 /* *{
     background-color:rgba(0, 0, 255, 0.2)!important
 }  */
 
 .container {
-    max-width: 84rem;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: var(--color_container);
-    top: 0;
-    bottom: 0;
-    height: 100vh;
+  max-width: 84rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--color_container);
+  top: 0;
+  bottom: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -50,7 +62,7 @@ header {
     margin: 0;
     text-align: left;
     height: 3rem;
-    background-color: var(--color_container);
+    /* background-color: var(--color_container); */
     position: sticky;
     top: 0;
 }
@@ -105,7 +117,8 @@ h2 {
     margin: 0;
     padding: 0;
     padding-top: 0.5rem;
-    color: var(--color2);
+    /* color: var(--color2); */
+    color: var(--color_container);
     /* font-weight: 500; */
 }
 
@@ -121,12 +134,20 @@ h2 {
 
 .chapter {
     /* font-family: var(--font1); */
-    color: var(--color2);
+    /* color: var(--color1); */
+    color: var(--color_container);
     text-align: left;
     font-size: 4rem;
     line-height: 4rem;
     padding: 0;   
 }
+
+/* .chapter a {
+    /* background-color: var(--color_container);
+    -webkit-text-stroke: 0.1rem;
+    border-radius: 0.5rem;
+    padding: 1em; */
+} */
 
 .chapter a:hover {
     color: var(--color1);
