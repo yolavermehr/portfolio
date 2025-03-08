@@ -13,7 +13,8 @@
     --color_background: #f6f6f6;
     --color_container: #fafafa;
     --color1: #58ff75;
-    --color2: #edb6fd;
+    /* --color1: #58ff75; */
+    --color2: #e297f9;
     /* --color2: #82f4cc; */
     --color3: #333;
     --font1: 'Fontix', Roboto, sans-serif;
@@ -104,7 +105,7 @@ h2 {
     margin: 0;
     padding: 0;
     padding-top: 0.5rem;
-    color: var(--color1);
+    color: var(--color2);
     /* font-weight: 500; */
 }
 
@@ -293,4 +294,8 @@ a {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.pixelArrow {
+  font-family: var(--font1);
 }
