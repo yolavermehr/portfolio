@@ -129,29 +129,26 @@ h2 {
 
 .chapters {
     padding: 0rem 1rem 0rem 1.5rem;
-    border-left: var(--color2) dashed 1px;
+    border-left: var(--color_container) dashed 1px;
 }
 
 .chapter {
-    /* font-family: var(--font1); */
-    /* color: var(--color1); */
     color: var(--color_container);
     text-align: left;
     font-size: 4rem;
     line-height: 4rem;
     padding: 0;   
+    transition: transform 0.1s ease-in-out;
+    transform-origin: left;
 }
 
-/* .chapter a {
-    /* background-color: var(--color_container);
-    -webkit-text-stroke: 0.1rem;
-    border-radius: 0.5rem;
-    padding: 1em; */
-} */
+.chapter:hover {
+    transform: scale(1.05);
+}
 
 .chapter a:hover {
-    color: var(--color1);
-    -webkit-text-stroke: 0.1rem;
+  color: var(--color_container);
+  -webkit-text-stroke: 0.2rem;
 }
 
 main {
@@ -265,8 +262,6 @@ main {
 #project_info_box_container {
     padding: 1rem 2rem 1rem 3rem;
     margin-bottom: 1rem;
-    /* background-color: var(--color1); */
-    /* background-color: #58ff7588; */
     background-color: #edb6fd88;
 }
 
