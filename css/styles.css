@@ -148,7 +148,7 @@ h2 {
 
 .chapter a:hover {
   color: var(--color_container);
-  -webkit-text-stroke: 0.2rem;
+  -webkit-text-stroke: 0.1rem;
 }
 
 main {
