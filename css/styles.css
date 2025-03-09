@@ -122,7 +122,10 @@ h2 {
 .marker {
   /* background-color: var(--color1); */
   /* background-color: #3fdb59; */
-  background-color: #3f54db;
+  /* background-color: #3f54db; */
+  background-color: #5f6cc3;
+  padding: 3px;
+  margin: -2px;
   display: inline-block;
   /* box-shadow: 6px 6px 0px var(--color2); */
 }
